@@ -3,10 +3,10 @@ import java.util.Scanner;
 public class PL_TheBrothers {
     Scanner s = new Scanner(System.in);
 
-    private String firstPersonFirstName = s.next();
-    private String firstPersonLastName = s.next();
-    private String secondPersonFirstName = s.next();
-    private String secondPersonLastName = s.next();
+    private String firstPersonFirstName;
+    private String firstPersonLastName;
+    private String secondPersonFirstName;
+    private String secondPersonLastName;
 
     public PL_TheBrothers() {
         firstPersonFirstName = s.next();
