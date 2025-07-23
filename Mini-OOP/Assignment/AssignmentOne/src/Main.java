@@ -1,15 +1,21 @@
+import java.util.Scanner;
+
 public class Main {
     public static void main(String[] args) {
-        Person person = new Person("Ahmed", 22);
+        Scanner s = new Scanner(System.in);
+
+        Person person = new Person(s.nextLine(), s.nextInt());
         person.introduce();
         System.out.println("---------------------------");
-        Employee employee = new Employee("Ahmed", 22, 2500, "Teacher");
+        Employee employee = new Employee(s.nextLine(), s.nextInt, s.nextDouble(), s.nextLine());
         employee.work();
         System.out.println("---------------------------");
-        Chef chef = new Chef("Ahmed", 22, 3500, "Chef");
+        Chef chef = new Chef(s.nextLine(), s.nextInt(), s.nextDouble(), s.nextLine());
         chef.work();
         System.out.println("---------------------------");
-        Waiter waiter = new Waiter("Ahmed", 22, 1750, "Waiter");
+        Waiter waiter = new Waiter(s.nextLine(), s.nextInt(), s.nextDouble(), s.nextLine());
         waiter.work();
+
+        s.close();
     }
 }
