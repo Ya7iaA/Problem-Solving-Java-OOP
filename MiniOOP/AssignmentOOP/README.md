@@ -22,4 +22,4 @@ Create
 - Waiter class extends Employee:
 - Override work() to print something like: "Waiter [name] is serving customers"
 
-B- 
+B- Second Assignment
