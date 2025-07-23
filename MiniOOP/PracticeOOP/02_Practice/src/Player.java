@@ -12,22 +12,6 @@ public class Player {
         }
     }
 
-    public void setPlayerName(String playerName) {
-        this.playerName = playerName;
-    }
-
-    public String getPlayerName() {
-        return playerName;
-    }
-
-    public void setPlayerNumber(int playerNumber) {
-        this.playerNumber = playerNumber;
-    }
-
-    public int getPlayerNumber() {
-        return playerNumber;
-    }
-
     public void print() {
         if (playerName.length() < 5 || playerNumber <= 0) {
             return;
