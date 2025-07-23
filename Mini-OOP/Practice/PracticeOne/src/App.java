@@ -1,14 +1,11 @@
-import java.util.Scanner;
-
 public class App {
-    Scanner s = new Scanner(System.in);
 
     private String personName;
     private int personAge;
 
-    public App() {
-        personName = s.nextLine();
-        personAge = s.nextInt();
+    public App(String personName, int personAge) {
+        this.personName = personName;
+        this.personAge = personAge;
     }
 
     public void setPersonName(String personName) {
