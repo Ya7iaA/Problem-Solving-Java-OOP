@@ -6,7 +6,6 @@
 
 * "C" in the name of the problem mean "Contest"
 * "P" in the name of the problem mean "Practice"
-
-
+<br>
 * Assignment mean "Course Assignment"
 * Practice mean "Practice by Myself"
