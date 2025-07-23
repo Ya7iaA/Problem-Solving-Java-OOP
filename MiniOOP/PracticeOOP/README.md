@@ -6,7 +6,7 @@ Create
 - App that accept id , name and age of Student
 - print them
 
-B- Second Practice
+02- Second Practice
 
 Create
 - App that accept number , name of Player
