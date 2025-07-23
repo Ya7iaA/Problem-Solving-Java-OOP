@@ -1,7 +1,7 @@
 public class Waiter extends Employee {
 
     public Waiter(String personName, int personAge, double employeeSalary, String employeeRole) {
-        super(personName, personAge, employeeSalary, employeeRole);
+        super(personName, personAge, employeeSalary, "Waiter");
     }
 
     @Override
