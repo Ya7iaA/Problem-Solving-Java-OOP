@@ -1,6 +1,6 @@
-# Problem-Solving-Java-OOP
+# ProblemSolvingJavaOOP
 
-1- Data Type , Conditions (https://codeforces.com/group/MWSDmqGsZm/contests)
+* Data Type , Conditions (https://codeforces.com/group/MWSDmqGsZm/contests)
 
 ## Hint for easy read
 
