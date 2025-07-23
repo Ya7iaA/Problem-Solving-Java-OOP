@@ -14,7 +14,7 @@ Create
 - make sure that number is > 0
 - make sure that name size > 5
 
-C- Third Practice
+03- Third Practice
 
 Create
 - App that accept 3 number
