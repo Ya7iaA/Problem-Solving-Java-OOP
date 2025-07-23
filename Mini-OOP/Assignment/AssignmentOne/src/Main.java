@@ -7,7 +7,7 @@ public class Main {
         Person person = new Person(s.nextLine(), s.nextInt());
         person.introduce();
         System.out.println("---------------------------");
-        Employee employee = new Employee(s.nextLine(), s.nextInt, s.nextDouble(), s.nextLine());
+        Employee employee = new Employee(s.nextLine(), s.nextInt(), s.nextDouble(), s.nextLine());
         employee.work();
         System.out.println("---------------------------");
         Chef chef = new Chef(s.nextLine(), s.nextInt(), s.nextDouble(), s.nextLine());
