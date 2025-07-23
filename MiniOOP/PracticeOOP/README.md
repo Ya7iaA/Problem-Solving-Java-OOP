@@ -25,11 +25,25 @@ Create
 
 04- Fourth Practice
 
-create 
+Create 
 - APP that Accept Player(id,name,number)
 - student(id , name,age)
 - print Data 
 - Validation
   01- id must be > 0
   02 number length must be <=2
-  03- age must be > 7 and < 30 
+  03- age must be > 7 and < 30
+
+  04- Fifth Practice
+
+Create
+- Person(id,name) 
+- Player(id , name, number,phone)
+- student (id,name,age,phone)
+- BaseEntity(id,name)
+- ShareData(phone) extend BaseEntity(id,name)
+- Person() extend BaseEntity(id,name)
+- Player(number) extend ShareData(phone) extend BaseEntity(id,name)
+- student (age) extend ShareData(phone) extend BaseEntity(id,name)
+- print Data
+
