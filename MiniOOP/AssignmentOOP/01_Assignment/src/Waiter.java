@@ -1,6 +1,6 @@
 public class Waiter extends Employee {
 
-    public Waiter(String personName, int personAge, double employeeSalary, String employeeRole) {
+    public Waiter(String personName, int personAge, double employeeSalary) {
         super(personName, personAge, employeeSalary, "Waiter");
     }
 
