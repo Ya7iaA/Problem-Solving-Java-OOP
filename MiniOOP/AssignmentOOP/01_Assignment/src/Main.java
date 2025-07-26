@@ -10,7 +10,7 @@ public class Main {
         Employee employee = new Employee(s.nextLine(), s.nextInt(), s.nextDouble(), s.nextLine());
         employee.work();
         System.out.println("---------------------------");
-        Chef chef = new Chef(s.nextLine(), s.nextInt(), s.nextDouble();
+        Chef chef = new Chef(s.nextLine(), s.nextInt(), s.nextDouble());
         chef.work();
         System.out.println("---------------------------");
         Waiter waiter = new Waiter(s.nextLine(), s.nextInt(), s.nextDouble());
